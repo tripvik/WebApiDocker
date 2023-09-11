@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDocker", "WebApiDocker\WebApiDocker.csproj", "{AD44783C-041F-479C-A29D-057D5F717353}"
 EndProject
@@ -10,16 +10,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgenTest", "NgenTest\NgenTest.csproj", "{A0A039A3-1152-432E-967B-3649BF4DE263}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AD44783C-041F-479C-A29D-057D5F717353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD44783C-041F-479C-A29D-057D5F717353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD44783C-041F-479C-A29D-057D5F717353}.Debug|x64.ActiveCfg = Debug|x64
+		{AD44783C-041F-479C-A29D-057D5F717353}.Debug|x64.Build.0 = Debug|x64
 		{AD44783C-041F-479C-A29D-057D5F717353}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD44783C-041F-479C-A29D-057D5F717353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD44783C-041F-479C-A29D-057D5F717353}.Release|x64.ActiveCfg = Release|x64
+		{AD44783C-041F-479C-A29D-057D5F717353}.Release|x64.Build.0 = Release|x64
+		{A0A039A3-1152-432E-967B-3649BF4DE263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A039A3-1152-432E-967B-3649BF4DE263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A039A3-1152-432E-967B-3649BF4DE263}.Debug|x64.ActiveCfg = Debug|x64
+		{A0A039A3-1152-432E-967B-3649BF4DE263}.Debug|x64.Build.0 = Debug|x64
+		{A0A039A3-1152-432E-967B-3649BF4DE263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A039A3-1152-432E-967B-3649BF4DE263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A039A3-1152-432E-967B-3649BF4DE263}.Release|x64.ActiveCfg = Release|x64
+		{A0A039A3-1152-432E-967B-3649BF4DE263}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

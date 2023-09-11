@@ -1,13 +1,17 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Web.Http;
+using static NgenTest.Ngen;
 
 namespace WebApiDocker
 {
     public class ValuesController : ApiController
     {
-        public IEnumerable<string> Get()
+        public async Task<IEnumerable<string>> GetAsync()
         {
-            return new List<string> { "ASP.NET", "Docker", "Windows Server Containers" };
+
+            var testSite = await new Webrequest().GetTestSiteAsync();
+            return new List<string> { testSite, "Test2", "Test3" };
         }
     }
 }

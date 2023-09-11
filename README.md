@@ -1,4 +1,4 @@
-#Sample: ASP.NET Web API OWIN Self-Hosted App in Windows Docker Containers
-
-For more details, see [blog post here](http://anthonychu.ca/post/web-api-owin-self-host-docker-windows-containers/).
-
+```
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe install .\NgenTest.dll /profile
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe install .\WebApiDocker.exe /profile
+```
